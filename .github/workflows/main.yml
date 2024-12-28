@@ -36,7 +36,7 @@ jobs:
             # Databricks token
             databricks-token:  ${{secrets.DATABRICKS_TOKEN}}
             # LOCAL_NOTEBOOKS_PATH
-            local-path: './Notebooks/'
+            local-path: '.'
             # REMOTE_NOTEBOOK_PATH
             remote-path: '/Project/'
 
